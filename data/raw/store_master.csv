@@ -1,0 +1,6 @@
+store_id,store_name,store_type,demand_multiplier
+S001,ห้างสยาม,Central,1.98
+S002,ห้างเซ็นทรัล,Central,1.9
+S003,ชุมชนเจริญ,Community,1.06
+S004,ชุมชนราษฎร์,Community,1.02
+S005,ปั๊มน้ำมัน,Express,0.94

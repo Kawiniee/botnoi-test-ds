@@ -1,0 +1,16 @@
+product_id,product_name,category,unit_price,base_demand
+P001,น้ำดื่ม 500ml,Beverage,17.49,44
+P002,น้ำดื่ม 1.5L,Beverage,24.64,90
+P003,น้ำหวาน 350ml,Beverage,21.94,53
+P004,น้ำผลไม้ 500ml,Beverage,23.02,82
+P005,ข้าวเกรียบ,Snack,24.55,59
+P006,มันช่วย,Snack,13.19,93
+P007,ถั่วเกลียว,Snack,24.88,62
+P008,คุกกี้,Snack,14.56,51
+P009,มาม่า,Instant Food,25.25,34
+P010,ยำ่ไง่,Instant Food,35.19,37
+P011,ข้าวแกง,Instant Food,59.08,24
+P012,แชมพู,Personal Care,61.92,12
+P013,สบู่,Personal Care,90.2,16
+P014,น้ำยาล้างจาน,Household,30.23,48
+P015,น้ำยาซักผ้า,Household,20.8,34
