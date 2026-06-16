@@ -13,6 +13,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 import warnings
+from pathlib import Path
+
+from data_preprocessing import OUTPUT_PATH, prepare_retail_dataset, save_processed_data
 
 warnings.filterwarnings('ignore')
 plt.rcParams['figure.figsize'] = (12, 6)
@@ -35,22 +38,21 @@ print("="*60)
 
 print("\n[1/8] Loading data...")
 
-product_df = pd.read_csv('data/raw/product_master.csv', encoding='utf-8')
-store_df = pd.read_csv('data/raw/store_master.csv', encoding='utf-8')
-promo_df = pd.read_csv('data/raw/promotion_master.csv', encoding='utf-8')
-sales_df = pd.read_csv('data/raw/sales_transaction.csv')
-
-# Merge all tables
-df = sales_df.merge(product_df, on='product_id', how='left')
-df = df.merge(store_df, on='store_id', how='left')
-df = df.merge(promo_df[['promotion_id', 'promotion_name', 'discount_percent', 'demand_boost']],
-              on='promotion_id', how='left')
+if Path(OUTPUT_PATH).exists():
+    df = pd.read_csv(OUTPUT_PATH, encoding='utf-8')
+    print(f"   Loaded processed dataset: {OUTPUT_PATH}")
+else:
+    print("   Processed dataset not found. Running preprocessing pipeline...")
+    df = prepare_retail_dataset()
+    save_processed_data(df)
+    print(f"   Saved processed dataset: {OUTPUT_PATH}")
 
 df['date'] = pd.to_datetime(df['date'])
 df['year'] = df['date'].dt.year
 df['month'] = df['date'].dt.month
 df['day_of_week'] = df['date'].dt.dayofweek
 df['is_weekend'] = df['day_of_week'] >= 5
+df['has_promo'] = df['promotion_id'] != 'PROMO00'
 
 # English mapping for product names (original Thai preserved in product_name)
 product_name_en = {
@@ -224,9 +226,14 @@ print("   Saved: output/charts/store_performance.png")
 # 6. Weekend vs Weekday
 # ============================================================================
 
-weekend_weekday = df.groupby('is_weekend').agg({
+daily_sales = df.groupby(['date', 'is_weekend']).agg({
     'revenue': 'sum',
     'qty': 'sum'
+}).reset_index()
+
+weekend_weekday = daily_sales.groupby('is_weekend').agg({
+    'revenue': 'mean',
+    'qty': 'mean'
 }).reset_index()
 
 weekend_weekday['day_type'] = weekend_weekday['is_weekend'].map({True: 'Weekend', False: 'Weekday'})
@@ -235,12 +242,12 @@ fig, axes = plt.subplots(1, 2, figsize=(12, 5))
 
 colors = ['#F18F01', '#2E86AB']
 axes[0].bar(weekend_weekday['day_type'], weekend_weekday['revenue'] / 1e6, color=colors)
-axes[0].set_ylabel('Revenue (Million THB)', fontsize=12)
-axes[0].set_title('Revenue: Weekend vs Weekday', fontsize=12, fontweight='bold')
+axes[0].set_ylabel('Average Daily Revenue (Million THB)', fontsize=12)
+axes[0].set_title('Avg Daily Revenue: Weekend vs Weekday', fontsize=12, fontweight='bold')
 
 axes[1].bar(weekend_weekday['day_type'], weekend_weekday['qty'] / 1000, color=colors)
-axes[1].set_ylabel('Quantity (Thousands)', fontsize=12)
-axes[1].set_title('Quantity: Weekend vs Weekday', fontsize=12, fontweight='bold')
+axes[1].set_ylabel('Average Daily Quantity (Thousands)', fontsize=12)
+axes[1].set_title('Avg Daily Quantity: Weekend vs Weekday', fontsize=12, fontweight='bold')
 
 plt.tight_layout()
 plt.savefig('output/charts/weekend_weekday.png', dpi=150, bbox_inches='tight')
@@ -257,8 +264,8 @@ print(f"   Saved: output/charts/weekend_weekday.png (Weekend Effect: +{(weekend_
 df['has_promo'] = df['promotion_id'] != 'PROMO00'
 
 promo_effect = df.groupby('has_promo').agg({
-    'revenue': 'sum',
-    'qty': 'sum'
+    'revenue': 'mean',
+    'qty': 'mean'
 }).reset_index()
 
 promo_effect['promo_status'] = promo_effect['has_promo'].map({True: 'With Promotion', False: 'No Promotion'})
@@ -267,13 +274,13 @@ fig, axes = plt.subplots(1, 2, figsize=(12, 5))
 
 colors = ['#888888', '#2E86AB']
 
-axes[0].bar(promo_effect['promo_status'], promo_effect['revenue'] / 1e6, color=colors)
-axes[0].set_ylabel('Revenue (Million THB)', fontsize=12)
-axes[0].set_title('Revenue: Promotion vs No Promotion', fontsize=12, fontweight='bold')
+axes[0].bar(promo_effect['promo_status'], promo_effect['revenue'], color=colors)
+axes[0].set_ylabel('Average Revenue per Row (THB)', fontsize=12)
+axes[0].set_title('Avg Revenue: Promotion vs No Promotion', fontsize=12, fontweight='bold')
 
-axes[1].bar(promo_effect['promo_status'], promo_effect['qty'] / 1000, color=colors)
-axes[1].set_ylabel('Quantity (Thousands)', fontsize=12)
-axes[1].set_title('Quantity: Promotion vs No Promotion', fontsize=12, fontweight='bold')
+axes[1].bar(promo_effect['promo_status'], promo_effect['qty'], color=colors)
+axes[1].set_ylabel('Average Quantity per Row', fontsize=12)
+axes[1].set_title('Avg Quantity: Promotion vs No Promotion', fontsize=12, fontweight='bold')
 
 plt.tight_layout()
 plt.savefig('output/charts/promo_effectiveness.png', dpi=150, bbox_inches='tight')

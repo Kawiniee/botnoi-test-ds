@@ -172,14 +172,32 @@ Model Performance Metrics:
 3. Inventory recommendation
 4. Business insights from EDA
 
+Current Project Outputs:
+
+* EDA charts and business insights: completed
+* Processed retail dataset: `data/processed/retail_dataset.csv`
+* Feature dataset: `data/processed/retail_features.csv`
+* Model evaluation outputs: `output/modeling/`
+* 7-day demand forecast: `output/forecast/demand_forecast.csv`
+* Forecast summary: `output/forecast/forecast_summary.csv`
+* Current inventory mock data: `data/raw/current_inventory.csv`
+* Inventory recommendation output: `output/forecast/inventory_recommendation.csv`
+
+Current Limitation:
+
+* Current inventory is mock data generated from recent demand, not real operational inventory.
+* Future promotion calendar is not available beyond the synthetic data period, so future forecast currently assumes no promotion (`PROMO00`).
+
 ---
 
 # Deliverables
 
 * Synthetic dataset
 * EDA notebook
-* Feature engineering notebook
-* Modeling notebook
+* Data preprocessing script
+* Feature engineering script
+* Modeling script
+* Forecasting script
 * Forecast results
 * Presentation slides
 * GitHub repository

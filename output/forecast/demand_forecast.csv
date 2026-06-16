@@ -1,0 +1,526 @@
+date,store_id,store_name,store_type,product_id,product_name,category,promotion_id,has_promo,unit_price,forecast_qty,forecast_revenue
+2027-01-01,S001,ห้างสยาม,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,108.09,1890.49
+2027-01-01,S001,ห้างสยาม,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,196.88,4851.12
+2027-01-01,S001,ห้างสยาม,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,116.77,2561.93
+2027-01-01,S001,ห้างสยาม,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,205.11,4721.63
+2027-01-01,S001,ห้างสยาม,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,169.57,4162.94
+2027-01-01,S001,ห้างสยาม,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,225.13,2969.46
+2027-01-01,S001,ห้างสยาม,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,170.27,4236.32
+2027-01-01,S001,ห้างสยาม,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,135.73,1976.23
+2027-01-01,S001,ห้างสยาม,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,78.43,1980.36
+2027-01-01,S001,ห้างสยาม,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,86.07,3028.8
+2027-01-01,S001,ห้างสยาม,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,55.82,3297.85
+2027-01-01,S001,ห้างสยาม,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,29.15,1804.97
+2027-01-01,S001,ห้างสยาม,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,36.97,3334.69
+2027-01-01,S001,ห้างสยาม,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,126.67,3829.23
+2027-01-01,S001,ห้างสยาม,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,86.27,1794.42
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,100.17,1751.97
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,202.92,4999.95
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,117.45,2576.85
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,184.19,4240.05
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,155.66,3821.45
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,220.37,2906.68
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,156.18,3885.76
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,125.4,1825.82
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,69.27,1749.07
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,85.16,2996.78
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,51.82,3061.53
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,26.8,1659.46
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,35.6,3211.12
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,112.62,3404.5
+2027-01-01,S002,ห้างเซ็นทรัล,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,82.71,1720.37
+2027-01-01,S003,ชุมชนเจริญ,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,54.69,956.53
+2027-01-01,S003,ชุมชนเจริญ,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,107.56,2650.28
+2027-01-01,S003,ชุมชนเจริญ,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,64.94,1424.78
+2027-01-01,S003,ชุมชนเจริญ,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,102.2,2352.64
+2027-01-01,S003,ชุมชนเจริญ,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,94.99,2332.0
+2027-01-01,S003,ชุมชนเจริญ,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,134.63,1775.77
+2027-01-01,S003,ชุมชนเจริญ,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,103.74,2581.05
+2027-01-01,S003,ชุมชนเจริญ,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,74.11,1079.04
+2027-01-01,S003,ชุมชนเจริญ,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,44.33,1119.33
+2027-01-01,S003,ชุมชนเจริญ,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,45.16,1589.18
+2027-01-01,S003,ชุมชนเจริญ,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,30.28,1788.94
+2027-01-01,S003,ชุมชนเจริญ,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,15.37,951.71
+2027-01-01,S003,ชุมชนเจริญ,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,19.92,1796.78
+2027-01-01,S003,ชุมชนเจริญ,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,65.49,1979.76
+2027-01-01,S003,ชุมชนเจริญ,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,49.19,1023.15
+2027-01-01,S004,ชุมชนราษฎร์,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,57.91,1012.85
+2027-01-01,S004,ชุมชนราษฎร์,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,107.65,2652.5
+2027-01-01,S004,ชุมชนราษฎร์,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,65.11,1428.51
+2027-01-01,S004,ชุมชนราษฎร์,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,99.29,2285.66
+2027-01-01,S004,ชุมชนราษฎร์,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,95.33,2340.35
+2027-01-01,S004,ชุมชนราษฎร์,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,127.14,1676.98
+2027-01-01,S004,ชุมชนราษฎร์,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,95.83,2384.25
+2027-01-01,S004,ชุมชนราษฎร์,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,71.5,1041.04
+2027-01-01,S004,ชุมชนราษฎร์,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,40.41,1020.35
+2027-01-01,S004,ชุมชนราษฎร์,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,43.06,1515.28
+2027-01-01,S004,ชุมชนราษฎร์,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,27.85,1645.38
+2027-01-01,S004,ชุมชนราษฎร์,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,15.79,977.72
+2027-01-01,S004,ชุมชนราษฎร์,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,18.67,1684.03
+2027-01-01,S004,ชุมชนราษฎร์,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,65.15,1969.48
+2027-01-01,S004,ชุมชนราษฎร์,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,46.11,959.09
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,51.19,895.31
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,105.39,2596.81
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,63.74,1398.46
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,92.8,2136.26
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,74.26,1823.08
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P006,มันช่วย,Snack,PROMO00,False,13.19,106.33,1402.49
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,78.21,1945.86
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P008,คุกกี้,Snack,PROMO00,False,14.56,61.58,896.6
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P009,มาม่า,Instant Food,PROMO00,False,25.25,35.62,899.4
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,40.89,1438.92
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,23.44,1384.84
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P012,แชมพู,Personal Care,PROMO00,False,61.92,13.06,808.68
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P013,สบู่,Personal Care,PROMO00,False,90.2,18.27,1647.95
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,59.18,1789.01
+2027-01-01,S005,ปั๊มน้ำมัน,Express,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,42.76,889.41
+2027-01-02,S001,ห้างสยาม,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,114.49,2002.43
+2027-01-02,S001,ห้างสยาม,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,218.71,5389.01
+2027-01-02,S001,ห้างสยาม,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,119.61,2624.24
+2027-01-02,S001,ห้างสยาม,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,209.82,4830.06
+2027-01-02,S001,ห้างสยาม,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,262.7,6449.28
+2027-01-02,S001,ห้างสยาม,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,357.6,4716.74
+2027-01-02,S001,ห้างสยาม,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,263.92,6566.33
+2027-01-02,S001,ห้างสยาม,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,236.77,3447.37
+2027-01-02,S001,ห้างสยาม,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,99.32,2507.83
+2027-01-02,S001,ห้างสยาม,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,114.38,4025.03
+2027-01-02,S001,ห้างสยาม,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,74.25,4386.69
+2027-01-02,S001,ห้างสยาม,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,36.78,2277.42
+2027-01-02,S001,ห้างสยาม,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,46.93,4233.09
+2027-01-02,S001,ห้างสยาม,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,141.64,4281.78
+2027-01-02,S001,ห้างสยาม,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,116.82,2429.86
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,107.65,1882.8
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,219.67,5412.67
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,116.83,2563.25
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,193.09,4444.93
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,259.07,6360.17
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,347.4,4582.21
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,275.16,6845.98
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,210.31,3062.11
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,94.59,2388.4
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,101.68,3578.12
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,68.09,4022.76
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,36.17,2239.65
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,46.69,4211.44
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,144.02,4353.72
+2027-01-02,S002,ห้างเซ็นทรัล,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,103.0,2142.4
+2027-01-02,S003,ชุมชนเจริญ,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,55.36,968.25
+2027-01-02,S003,ชุมชนเจริญ,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,115.22,2839.02
+2027-01-02,S003,ชุมชนเจริญ,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,69.3,1520.44
+2027-01-02,S003,ชุมชนเจริญ,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,108.84,2505.5
+2027-01-02,S003,ชุมชนเจริญ,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,146.47,3595.84
+2027-01-02,S003,ชุมชนเจริญ,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,219.78,2898.9
+2027-01-02,S003,ชุมชนเจริญ,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,156.5,3893.72
+2027-01-02,S003,ชุมชนเจริญ,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,136.13,1982.05
+2027-01-02,S003,ชุมชนเจริญ,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,54.65,1379.91
+2027-01-02,S003,ชุมชนเจริญ,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,58.09,2044.19
+2027-01-02,S003,ชุมชนเจริญ,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,37.62,2222.59
+2027-01-02,S003,ชุมชนเจริญ,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,18.83,1165.95
+2027-01-02,S003,ชุมชนเจริญ,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,26.11,2355.12
+2027-01-02,S003,ชุมชนเจริญ,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,87.96,2659.03
+2027-01-02,S003,ชุมชนเจริญ,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,59.26,1232.61
+2027-01-02,S004,ชุมชนราษฎร์,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,60.35,1055.52
+2027-01-02,S004,ชุมชนราษฎร์,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,107.91,2658.9
+2027-01-02,S004,ชุมชนราษฎร์,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,74.1,1625.75
+2027-01-02,S004,ชุมชนราษฎร์,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,102.85,2367.61
+2027-01-02,S004,ชุมชนราษฎร์,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,148.87,3654.76
+2027-01-02,S004,ชุมชนราษฎร์,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,214.39,2827.8
+2027-01-02,S004,ชุมชนราษฎร์,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,151.26,3763.35
+2027-01-02,S004,ชุมชนราษฎร์,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,107.94,1571.61
+2027-01-02,S004,ชุมชนราษฎร์,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,54.37,1372.84
+2027-01-02,S004,ชุมชนราษฎร์,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,55.68,1959.38
+2027-01-02,S004,ชุมชนราษฎร์,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,36.63,2164.1
+2027-01-02,S004,ชุมชนราษฎร์,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,18.98,1175.24
+2027-01-02,S004,ชุมชนราษฎร์,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,25.57,2306.41
+2027-01-02,S004,ชุมชนราษฎร์,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,83.35,2519.67
+2027-01-02,S004,ชุมชนราษฎร์,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,55.61,1156.69
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,52.25,913.85
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,104.12,2565.52
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,65.06,1427.42
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,101.07,2326.63
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,135.06,3315.72
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P006,มันช่วย,Snack,PROMO00,False,13.19,196.89,2596.98
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,132.33,3292.37
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P008,คุกกี้,Snack,PROMO00,False,14.56,106.18,1545.98
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P009,มาม่า,Instant Food,PROMO00,False,25.25,48.11,1214.78
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,53.33,1876.68
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,32.8,1937.82
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P012,แชมพู,Personal Care,PROMO00,False,61.92,17.94,1110.84
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P013,สบู่,Personal Care,PROMO00,False,90.2,23.32,2103.46
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,75.01,2267.55
+2027-01-02,S005,ปั๊มน้ำมัน,Express,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,54.06,1124.45
+2027-01-03,S001,ห้างสยาม,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,111.99,1958.71
+2027-01-03,S001,ห้างสยาม,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,208.43,5135.72
+2027-01-03,S001,ห้างสยาม,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,119.3,2617.44
+2027-01-03,S001,ห้างสยาม,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,196.92,4533.1
+2027-01-03,S001,ห้างสยาม,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,261.0,6407.55
+2027-01-03,S001,ห้างสยาม,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,384.77,5075.12
+2027-01-03,S001,ห้างสยาม,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,274.15,6820.85
+2027-01-03,S001,ห้างสยาม,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,225.38,3281.53
+2027-01-03,S001,ห้างสยาม,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,98.43,2485.36
+2027-01-03,S001,ห้างสยาม,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,115.41,4061.28
+2027-01-03,S001,ห้างสยาม,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,74.09,4377.24
+2027-01-03,S001,ห้างสยาม,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,36.1,2235.31
+2027-01-03,S001,ห้างสยาม,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,45.69,4121.24
+2027-01-03,S001,ห้างสยาม,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,143.38,4334.38
+2027-01-03,S001,ห้างสยาม,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,113.87,2368.5
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,107.03,1871.95
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,202.93,5000.2
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,121.76,2671.41
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,195.96,4511.0
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,255.96,6283.82
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,340.03,4485.0
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,261.87,6515.33
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,214.35,3120.94
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,91.6,2312.9
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,98.82,3477.48
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,67.73,4001.49
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,35.39,2191.35
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,45.88,4138.38
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,146.23,4420.53
+2027-01-03,S002,ห้างเซ็นทรัล,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,102.07,2123.06
+2027-01-03,S003,ชุมชนเจริญ,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,52.82,923.82
+2027-01-03,S003,ชุมชนเจริญ,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,114.97,2832.86
+2027-01-03,S003,ชุมชนเจริญ,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,71.65,1572.0
+2027-01-03,S003,ชุมชนเจริญ,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,107.49,2474.42
+2027-01-03,S003,ชุมชนเจริญ,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,152.23,3737.25
+2027-01-03,S003,ชุมชนเจริญ,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,208.22,2746.42
+2027-01-03,S003,ชุมชนเจริญ,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,169.2,4209.7
+2027-01-03,S003,ชุมชนเจริญ,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,136.09,1981.47
+2027-01-03,S003,ชุมชนเจริญ,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,51.49,1300.12
+2027-01-03,S003,ชุมชนเจริญ,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,56.68,1994.57
+2027-01-03,S003,ชุมชนเจริญ,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,36.87,2178.28
+2027-01-03,S003,ชุมชนเจริญ,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,18.56,1149.24
+2027-01-03,S003,ชุมชนเจริญ,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,26.27,2369.55
+2027-01-03,S003,ชุมชนเจริญ,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,88.07,2662.36
+2027-01-03,S003,ชุมชนเจริญ,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,57.59,1197.87
+2027-01-03,S004,ชุมชนราษฎร์,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,59.79,1045.73
+2027-01-03,S004,ชุมชนราษฎร์,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,109.68,2702.52
+2027-01-03,S004,ชุมชนราษฎร์,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,64.24,1409.43
+2027-01-03,S004,ชุมชนราษฎร์,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,100.91,2322.95
+2027-01-03,S004,ชุมชนราษฎร์,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,147.77,3627.75
+2027-01-03,S004,ชุมชนราษฎร์,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,211.4,2788.37
+2027-01-03,S004,ชุมชนราษฎร์,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,145.52,3620.54
+2027-01-03,S004,ชุมชนราษฎร์,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,108.45,1579.03
+2027-01-03,S004,ชุมชนราษฎร์,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,52.39,1322.85
+2027-01-03,S004,ชุมชนราษฎร์,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,54.88,1931.23
+2027-01-03,S004,ชุมชนราษฎร์,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,35.55,2100.29
+2027-01-03,S004,ชุมชนราษฎร์,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,18.47,1143.66
+2027-01-03,S004,ชุมชนราษฎร์,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,25.72,2319.94
+2027-01-03,S004,ชุมชนราษฎร์,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,78.17,2363.08
+2027-01-03,S004,ชุมชนราษฎร์,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,53.65,1115.92
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,53.92,943.06
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,103.87,2559.36
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,64.96,1425.22
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,95.85,2206.47
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,134.39,3299.27
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P006,มันช่วย,Snack,PROMO00,False,13.19,193.81,2556.35
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,137.24,3414.53
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P008,คุกกี้,Snack,PROMO00,False,14.56,106.99,1557.77
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P009,มาม่า,Instant Food,PROMO00,False,25.25,45.93,1159.73
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,53.0,1865.07
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,32.88,1942.55
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P012,แชมพู,Personal Care,PROMO00,False,61.92,17.14,1061.31
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P013,สบู่,Personal Care,PROMO00,False,90.2,23.04,2078.21
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,73.8,2230.97
+2027-01-03,S005,ปั๊มน้ำมัน,Express,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,50.48,1049.98
+2027-01-04,S001,ห้างสยาม,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,104.22,1822.81
+2027-01-04,S001,ห้างสยาม,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,204.38,5035.92
+2027-01-04,S001,ห้างสยาม,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,112.65,2471.54
+2027-01-04,S001,ห้างสยาม,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,193.58,4456.21
+2027-01-04,S001,ห้างสยาม,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,180.0,4419.0
+2027-01-04,S001,ห้างสยาม,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,216.74,2858.8
+2027-01-04,S001,ห้างสยาม,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,156.27,3888.0
+2027-01-04,S001,ห้างสยาม,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,129.72,1888.72
+2027-01-04,S001,ห้างสยาม,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,79.43,2005.61
+2027-01-04,S001,ห้างสยาม,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,80.78,2842.65
+2027-01-04,S001,ห้างสยาม,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,54.34,3210.41
+2027-01-04,S001,ห้างสยาม,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,27.73,1717.04
+2027-01-04,S001,ห้างสยาม,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,37.42,3375.28
+2027-01-04,S001,ห้างสยาม,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,116.45,3520.28
+2027-01-04,S001,ห้างสยาม,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,79.87,1661.3
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,102.21,1787.65
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,209.15,5153.46
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,113.14,2482.29
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,196.7,4528.03
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,160.1,3930.46
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,192.99,2545.54
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,166.25,4136.3
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,104.4,1520.06
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,72.67,1834.92
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,77.06,2711.74
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,50.43,2979.4
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,26.7,1653.26
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,33.76,3045.15
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,122.27,3696.22
+2027-01-04,S002,ห้างเซ็นทรัล,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,80.49,1674.19
+2027-01-04,S003,ชุมชนเจริญ,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,49.56,866.8
+2027-01-04,S003,ชุมชนเจริญ,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,105.12,2590.16
+2027-01-04,S003,ชุมชนเจริญ,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,66.03,1448.7
+2027-01-04,S003,ชุมชนเจริญ,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,100.75,2319.26
+2027-01-04,S003,ชุมชนเจริญ,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,91.63,2249.52
+2027-01-04,S003,ชุมชนเจริญ,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,140.07,1847.52
+2027-01-04,S003,ชุมชนเจริญ,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,98.83,2458.89
+2027-01-04,S003,ชุมชนเจริญ,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,72.06,1049.19
+2027-01-04,S003,ชุมชนเจริญ,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,43.18,1090.3
+2027-01-04,S003,ชุมชนเจริญ,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,44.47,1564.9
+2027-01-04,S003,ชุมชนเจริญ,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,31.26,1846.84
+2027-01-04,S003,ชุมชนเจริญ,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,14.36,889.17
+2027-01-04,S003,ชุมชนเจริญ,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,19.28,1739.06
+2027-01-04,S003,ชุมชนเจริญ,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,68.79,2079.52
+2027-01-04,S003,ชุมชนเจริญ,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,47.24,982.59
+2027-01-04,S004,ชุมชนราษฎร์,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,56.42,986.79
+2027-01-04,S004,ชุมชนราษฎร์,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,104.64,2578.33
+2027-01-04,S004,ชุมชนราษฎร์,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,63.09,1384.19
+2027-01-04,S004,ชุมชนราษฎร์,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,93.43,2150.76
+2027-01-04,S004,ชุมชนราษฎร์,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,89.9,2207.04
+2027-01-04,S004,ชุมชนราษฎร์,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,125.27,1652.31
+2027-01-04,S004,ชุมชนราษฎร์,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,96.73,2406.64
+2027-01-04,S004,ชุมชนราษฎร์,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,58.32,849.14
+2027-01-04,S004,ชุมชนราษฎร์,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,38.28,966.57
+2027-01-04,S004,ชุมชนราษฎร์,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,43.2,1520.21
+2027-01-04,S004,ชุมชนราษฎร์,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,29.39,1736.36
+2027-01-04,S004,ชุมชนราษฎร์,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,14.85,919.51
+2027-01-04,S004,ชุมชนราษฎร์,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,18.3,1650.66
+2027-01-04,S004,ชุมชนราษฎร์,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,60.88,1840.4
+2027-01-04,S004,ชุมชนราษฎร์,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,42.35,880.88
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,47.24,826.23
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,101.96,2512.29
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,62.97,1381.56
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,92.03,2118.53
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,75.51,1853.77
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P006,มันช่วย,Snack,PROMO00,False,13.19,101.95,1344.72
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,72.8,1811.26
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P008,คุกกี้,Snack,PROMO00,False,14.56,55.18,803.42
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P009,มาม่า,Instant Food,PROMO00,False,25.25,36.53,922.38
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,39.08,1375.23
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,24.06,1421.46
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P012,แชมพู,Personal Care,PROMO00,False,61.92,13.11,811.77
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P013,สบู่,Personal Care,PROMO00,False,90.2,16.79,1514.46
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,57.32,1732.78
+2027-01-04,S005,ปั๊มน้ำมัน,Express,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,41.29,858.83
+2027-01-05,S001,ห้างสยาม,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,105.98,1853.59
+2027-01-05,S001,ห้างสยาม,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,183.54,4522.43
+2027-01-05,S001,ห้างสยาม,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,113.08,2480.98
+2027-01-05,S001,ห้างสยาม,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,179.86,4140.38
+2027-01-05,S001,ห้างสยาม,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,152.81,3751.49
+2027-01-05,S001,ห้างสยาม,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,212.64,2804.72
+2027-01-05,S001,ห้างสยาม,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,158.97,3955.17
+2027-01-05,S001,ห้างสยาม,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,124.2,1808.35
+2027-01-05,S001,ห้างสยาม,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,74.78,1888.2
+2027-01-05,S001,ห้างสยาม,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,82.3,2896.14
+2027-01-05,S001,ห้างสยาม,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,54.19,3201.55
+2027-01-05,S001,ห้างสยาม,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,26.32,1629.73
+2027-01-05,S001,ห้างสยาม,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,35.73,3222.85
+2027-01-05,S001,ห้างสยาม,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,111.06,3357.34
+2027-01-05,S001,ห้างสยาม,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,77.73,1616.78
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,95.47,1669.77
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,187.45,4618.77
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,113.95,2500.06
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,180.76,4161.1
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,145.43,3570.31
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,195.15,2574.03
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,152.94,3805.15
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,106.81,1555.15
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,69.88,1764.47
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,79.56,2799.72
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,48.93,2890.78
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,26.4,1634.69
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,31.07,2802.51
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,105.7,3195.31
+2027-01-05,S002,ห้างเซ็นทรัล,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,77.16,1604.93
+2027-01-05,S003,ชุมชนเจริญ,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,48.19,842.84
+2027-01-05,S003,ชุมชนเจริญ,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,104.42,2572.91
+2027-01-05,S003,ชุมชนเจริญ,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,65.97,1447.38
+2027-01-05,S003,ชุมชนเจริญ,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,101.44,2335.15
+2027-01-05,S003,ชุมชนเจริญ,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,92.54,2271.86
+2027-01-05,S003,ชุมชนเจริญ,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,137.24,1810.2
+2027-01-05,S003,ชุมชนเจริญ,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,99.73,2481.28
+2027-01-05,S003,ชุมชนเจริญ,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,67.48,982.51
+2027-01-05,S003,ชุมชนเจริญ,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,42.07,1062.27
+2027-01-05,S003,ชุมชนเจริญ,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,45.48,1600.44
+2027-01-05,S003,ชุมชนเจริญ,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,31.0,1831.48
+2027-01-05,S003,ชุมชนเจริญ,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,14.33,887.31
+2027-01-05,S003,ชุมชนเจริญ,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,19.3,1740.86
+2027-01-05,S003,ชุมชนเจริญ,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,63.42,1917.19
+2027-01-05,S003,ชุมชนเจริญ,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,46.51,967.41
+2027-01-05,S004,ชุมชนราษฎร์,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,56.6,989.93
+2027-01-05,S004,ชุมชนราษฎร์,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,103.93,2560.84
+2027-01-05,S004,ชุมชนราษฎร์,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,67.06,1471.3
+2027-01-05,S004,ชุมชนราษฎร์,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,94.97,2186.21
+2027-01-05,S004,ชุมชนราษฎร์,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,90.59,2223.98
+2027-01-05,S004,ชุมชนราษฎร์,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,124.88,1647.17
+2027-01-05,S004,ชุมชนราษฎร์,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,90.02,2239.7
+2027-01-05,S004,ชุมชนราษฎร์,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,60.92,887.0
+2027-01-05,S004,ชุมชนราษฎร์,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,35.84,904.96
+2027-01-05,S004,ชุมชนราษฎร์,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,41.72,1468.13
+2027-01-05,S004,ชุมชนราษฎร์,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,28.71,1696.19
+2027-01-05,S004,ชุมชนราษฎร์,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,14.31,886.08
+2027-01-05,S004,ชุมชนราษฎร์,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,17.49,1577.6
+2027-01-05,S004,ชุมชนราษฎร์,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,60.06,1815.61
+2027-01-05,S004,ชุมชนราษฎร์,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,43.79,910.83
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,48.92,855.61
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,101.14,2492.09
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,60.61,1329.78
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,89.96,2070.88
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,67.17,1649.02
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P006,มันช่วย,Snack,PROMO00,False,13.19,102.3,1349.34
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,72.44,1802.31
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P008,คุกกี้,Snack,PROMO00,False,14.56,54.6,794.98
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P009,มาม่า,Instant Food,PROMO00,False,25.25,34.58,873.14
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,37.21,1309.42
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,23.38,1381.29
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P012,แชมพู,Personal Care,PROMO00,False,61.92,12.74,788.86
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P013,สบู่,Personal Care,PROMO00,False,90.2,15.97,1440.49
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,52.86,1597.96
+2027-01-05,S005,ปั๊มน้ำมัน,Express,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,39.87,829.3
+2027-01-06,S001,ห้างสยาม,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,101.34,1772.44
+2027-01-06,S001,ห้างสยาม,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,184.24,4539.67
+2027-01-06,S001,ห้างสยาม,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,111.57,2447.85
+2027-01-06,S001,ห้างสยาม,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,173.0,3982.46
+2027-01-06,S001,ห้างสยาม,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,149.97,3681.76
+2027-01-06,S001,ห้างสยาม,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,194.9,2570.73
+2027-01-06,S001,ห้างสยาม,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,146.45,3643.68
+2027-01-06,S001,ห้างสยาม,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,124.51,1812.87
+2027-01-06,S001,ห้างสยาม,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,70.09,1769.77
+2027-01-06,S001,ห้างสยาม,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,79.56,2799.72
+2027-01-06,S001,ห้างสยาม,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,53.49,3160.19
+2027-01-06,S001,ห้างสยาม,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,26.37,1632.83
+2027-01-06,S001,ห้างสยาม,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,33.45,3017.19
+2027-01-06,S001,ห้างสยาม,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,118.25,3574.7
+2027-01-06,S001,ห้างสยาม,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,79.77,1659.22
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,98.52,1723.11
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,189.66,4673.22
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,113.36,2487.12
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,172.19,3963.81
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,127.0,3117.85
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,191.44,2525.09
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,157.37,3915.37
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,96.4,1403.58
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,67.49,1704.12
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,77.31,2720.54
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,48.61,2871.88
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,26.33,1630.35
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,30.57,2757.41
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,102.25,3091.02
+2027-01-06,S002,ห้างเซ็นทรัล,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,75.57,1571.86
+2027-01-06,S003,ชุมชนเจริญ,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,50.37,880.97
+2027-01-06,S003,ชุมชนเจริญ,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,107.17,2640.67
+2027-01-06,S003,ชุมชนเจริญ,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,64.78,1421.27
+2027-01-06,S003,ชุมชนเจริญ,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,99.18,2283.12
+2027-01-06,S003,ชุมชนเจริญ,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,81.62,2003.77
+2027-01-06,S003,ชุมชนเจริญ,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,126.12,1663.52
+2027-01-06,S003,ชุมชนเจริญ,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,102.22,2543.23
+2027-01-06,S003,ชุมชนเจริญ,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,68.06,990.95
+2027-01-06,S003,ชุมชนเจริญ,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,42.85,1081.96
+2027-01-06,S003,ชุมชนเจริญ,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,44.79,1576.16
+2027-01-06,S003,ชุมชนเจริญ,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,29.65,1751.72
+2027-01-06,S003,ชุมชนเจริญ,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,14.92,923.85
+2027-01-06,S003,ชุมชนเจริญ,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,18.53,1671.41
+2027-01-06,S003,ชุมชนเจริญ,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,60.73,1835.87
+2027-01-06,S003,ชุมชนเจริญ,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,45.18,939.74
+2027-01-06,S004,ชุมชนราษฎร์,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,55.03,962.47
+2027-01-06,S004,ชุมชนราษฎร์,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,105.35,2595.82
+2027-01-06,S004,ชุมชนราษฎร์,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,68.25,1497.41
+2027-01-06,S004,ชุมชนราษฎร์,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,92.79,2136.03
+2027-01-06,S004,ชุมชนราษฎร์,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,80.97,1987.81
+2027-01-06,S004,ชุมชนราษฎร์,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,132.27,1744.64
+2027-01-06,S004,ชุมชนราษฎร์,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,86.34,2148.14
+2027-01-06,S004,ชุมชนราษฎร์,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,54.1,787.7
+2027-01-06,S004,ชุมชนราษฎร์,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,36.48,921.12
+2027-01-06,S004,ชุมชนราษฎร์,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,40.93,1440.33
+2027-01-06,S004,ชุมชนราษฎร์,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,29.98,1771.22
+2027-01-06,S004,ชุมชนราษฎร์,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,14.12,874.31
+2027-01-06,S004,ชุมชนราษฎร์,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,17.35,1564.97
+2027-01-06,S004,ชุมชนราษฎร์,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,59.04,1784.78
+2027-01-06,S004,ชุมชนราษฎร์,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,44.13,917.9
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,51.86,907.03
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,96.76,2384.17
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,60.5,1327.37
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,85.85,1976.27
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,65.33,1603.85
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P006,มันช่วย,Snack,PROMO00,False,13.19,87.84,1158.61
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,66.72,1659.99
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P008,คุกกี้,Snack,PROMO00,False,14.56,49.73,724.07
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P009,มาม่า,Instant Food,PROMO00,False,25.25,32.85,829.46
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,36.9,1298.51
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,21.7,1282.04
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P012,แชมพู,Personal Care,PROMO00,False,61.92,12.76,790.1
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P013,สบู่,Personal Care,PROMO00,False,90.2,16.22,1463.04
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,50.17,1516.64
+2027-01-06,S005,ปั๊มน้ำมัน,Express,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,38.72,805.38
+2027-01-07,S001,ห้างสยาม,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,101.26,1771.04
+2027-01-07,S001,ห้างสยาม,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,183.51,4521.69
+2027-01-07,S001,ห้างสยาม,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,108.24,2374.79
+2027-01-07,S001,ห้างสยาม,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,180.77,4161.33
+2027-01-07,S001,ห้างสยาม,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,155.42,3815.56
+2027-01-07,S001,ห้างสยาม,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,186.58,2460.99
+2027-01-07,S001,ห้างสยาม,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,158.17,3935.27
+2027-01-07,S001,ห้างสยาม,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,124.29,1809.66
+2027-01-07,S001,ห้างสยาม,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,74.23,1874.31
+2027-01-07,S001,ห้างสยาม,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,79.16,2785.64
+2027-01-07,S001,ห้างสยาม,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,52.45,3098.75
+2027-01-07,S001,ห้างสยาม,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,27.12,1679.27
+2027-01-07,S001,ห้างสยาม,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,33.67,3037.03
+2027-01-07,S001,ห้างสยาม,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,116.74,3529.05
+2027-01-07,S001,ห้างสยาม,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,79.13,1645.9
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,96.89,1694.61
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,193.65,4771.54
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,114.23,2506.21
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,200.96,4626.1
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,135.12,3317.2
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P006,มันช่วย,Snack,PROMO00,False,13.19,194.13,2560.57
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,148.19,3686.97
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P008,คุกกี้,Snack,PROMO00,False,14.56,92.74,1350.29
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P009,มาม่า,Instant Food,PROMO00,False,25.25,64.18,1620.54
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,76.13,2679.01
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,47.6,2812.21
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P012,แชมพู,Personal Care,PROMO00,False,61.92,26.34,1630.97
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P013,สบู่,Personal Care,PROMO00,False,90.2,31.32,2825.06
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,102.28,3091.92
+2027-01-07,S002,ห้างเซ็นทรัล,Central,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,74.38,1547.1
+2027-01-07,S003,ชุมชนเจริญ,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,49.91,872.93
+2027-01-07,S003,ชุมชนเจริญ,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,107.59,2651.02
+2027-01-07,S003,ชุมชนเจริญ,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,65.27,1432.02
+2027-01-07,S003,ชุมชนเจริญ,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,105.47,2427.92
+2027-01-07,S003,ชุมชนเจริญ,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,83.47,2049.19
+2027-01-07,S003,ชุมชนเจริญ,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,125.97,1661.54
+2027-01-07,S003,ชุมชนเจริญ,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,98.87,2459.89
+2027-01-07,S003,ชุมชนเจริญ,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,71.9,1046.86
+2027-01-07,S003,ชุมชนเจริญ,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,42.71,1078.43
+2027-01-07,S003,ชุมชนเจริญ,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,43.15,1518.45
+2027-01-07,S003,ชุมชนเจริญ,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,29.23,1726.91
+2027-01-07,S003,ชุมชนเจริญ,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,13.58,840.87
+2027-01-07,S003,ชุมชนเจริญ,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,17.91,1615.48
+2027-01-07,S003,ชุมชนเจริญ,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,61.7,1865.19
+2027-01-07,S003,ชุมชนเจริญ,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,45.78,952.22
+2027-01-07,S004,ชุมชนราษฎร์,Community,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,54.15,947.08
+2027-01-07,S004,ชุมชนราษฎร์,Community,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,98.14,2418.17
+2027-01-07,S004,ชุมชนราษฎร์,Community,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,64.12,1406.79
+2027-01-07,S004,ชุมชนราษฎร์,Community,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,86.32,1987.09
+2027-01-07,S004,ชุมชนราษฎร์,Community,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,76.23,1871.45
+2027-01-07,S004,ชุมชนราษฎร์,Community,P006,มันช่วย,Snack,PROMO00,False,13.19,135.38,1785.66
+2027-01-07,S004,ชุมชนราษฎร์,Community,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,85.78,2134.21
+2027-01-07,S004,ชุมชนราษฎร์,Community,P008,คุกกี้,Snack,PROMO00,False,14.56,53.26,775.47
+2027-01-07,S004,ชุมชนราษฎร์,Community,P009,มาม่า,Instant Food,PROMO00,False,25.25,35.31,891.58
+2027-01-07,S004,ชุมชนราษฎร์,Community,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,39.18,1378.74
+2027-01-07,S004,ชุมชนราษฎร์,Community,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,29.31,1731.63
+2027-01-07,S004,ชุมชนราษฎร์,Community,P012,แชมพู,Personal Care,PROMO00,False,61.92,14.13,874.93
+2027-01-07,S004,ชุมชนราษฎร์,Community,P013,สบู่,Personal Care,PROMO00,False,90.2,17.25,1555.95
+2027-01-07,S004,ชุมชนราษฎร์,Community,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,58.92,1781.15
+2027-01-07,S004,ชุมชนราษฎร์,Community,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,44.89,933.71
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P001,น้ำดื่ม 500ml,Beverage,PROMO00,False,17.49,51.36,898.29
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P002,น้ำดื่ม 1.5L,Beverage,PROMO00,False,24.64,99.05,2440.59
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P003,น้ำหวาน 350ml,Beverage,PROMO00,False,21.94,60.88,1335.71
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P004,น้ำผลไม้ 500ml,Beverage,PROMO00,False,23.02,84.02,1934.14
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P005,ข้าวเกรียบ,Snack,PROMO00,False,24.55,62.63,1537.57
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P006,มันช่วย,Snack,PROMO00,False,13.19,95.99,1266.11
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P007,ถั่วเกลียว,Snack,PROMO00,False,24.88,65.38,1626.65
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P008,คุกกี้,Snack,PROMO00,False,14.56,56.07,816.38
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P009,มาม่า,Instant Food,PROMO00,False,25.25,32.08,810.02
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P010,ยำ่ไง่,Instant Food,PROMO00,False,35.19,37.1,1305.55
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P011,ข้าวแกง,Instant Food,PROMO00,False,59.08,21.28,1257.22
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P012,แชมพู,Personal Care,PROMO00,False,61.92,12.47,772.14
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P013,สบู่,Personal Care,PROMO00,False,90.2,16.0,1443.2
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P014,น้ำยาล้างจาน,Household,PROMO00,False,30.23,50.04,1512.71
+2027-01-07,S005,ปั๊มน้ำมัน,Express,P015,น้ำยาซักผ้า,Household,PROMO00,False,20.8,38.13,793.1

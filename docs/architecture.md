@@ -68,6 +68,10 @@ Output:
 
 Processed Dataset
 
+Actual Project Output:
+
+* `data/processed/retail_dataset.csv`
+
 ---
 
 ## 3. Exploratory Data Analysis (EDA)
@@ -111,6 +115,10 @@ Output:
 
 Model-ready dataset
 
+Actual Project Output:
+
+* `data/processed/retail_features.csv`
+
 ---
 
 ## 5. Machine Learning Modeling
@@ -132,6 +140,15 @@ Output:
 
 Demand Forecast Model
 
+Actual Project Outputs:
+
+* `output/modeling/metrics.csv`
+* `output/modeling/predictions.csv`
+* `output/modeling/feature_importance.csv`
+* `output/modeling/model_comparison.png`
+* `output/modeling/feature_importance.png`
+* `output/modeling/actual_vs_predicted.png`
+
 ---
 
 ## 6. Demand Forecasting
@@ -148,6 +165,15 @@ Prediction Granularity:
 Output:
 
 Forecast Dataset
+
+Actual Project Outputs:
+
+* `output/forecast/demand_forecast.csv`
+* `output/forecast/forecast_summary.csv`
+
+Current Assumption:
+
+* Future promotion calendar is not available, so all future rows use `PROMO00`.
 
 ---
 
@@ -167,6 +193,16 @@ Output:
 
 Inventory Recommendation Report
 
+Actual Project Output:
+
+* `data/raw/current_inventory.csv`
+* `output/forecast/inventory_recommendation.csv`
+
+Current Limitation:
+
+* Current inventory is mock data generated from recent 30-day demand, not real operational inventory.
+* The recommendation uses 15% safety stock.
+
 ---
 
 # Project Folder Structure
@@ -182,18 +218,19 @@ project/
 │   └── processed/
 │
 ├── notebooks/
-│   ├── eda.ipynb
-│   ├── feature_engineering.ipynb
-│   └── modeling.ipynb
+│   └── eda.ipynb
 │
 ├── src/
 │   ├── generate_mock_data.py
+│   ├── generate_inventory_mock.py
 │   ├── data_preprocessing.py
 │   ├── feature_engineering.py
-│   └── train_model.py
+│   ├── train_model.py
+│   └── forecast.py
 │
 ├── output/
 │   ├── charts/
+│   ├── modeling/
 │   └── forecast/
 │
 ├── README.md
